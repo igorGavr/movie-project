@@ -1,0 +1,5 @@
+.header-bc{
+  background-color: #c1dac1;
+  display: flex;
+  justify-content: space-between;
+}
