@@ -1,0 +1,7 @@
+<div *ngIf="movie">
+  {{movie.original_title}}
+  <div>
+    <img src="https://image.tmdb.org/t/p/w500{{movie.backdrop_path}}" alt="">
+  </div>
+  <div><a routerLink="{{movie.id}}"></a></div>
+</div>
